@@ -1,0 +1,52 @@
+.contact-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contact-list-item::before {
+  content: '';
+  display: block;
+  margin-right: 10px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: #000000;
+}
+
+.contact-name,
+.contact-number {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.contact-name {
+  margin-right: 5px;
+}
+
+.contact-number {
+  margin-right: 10px;
+}
+
+.delete-contact-button {
+  min-width: 55px;
+  padding: 2px 3px;
+  border: 2px solid silver;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #ffffff;
+}
+
+.delete-contact-button:hover,
+.delete-contact-button:focus {
+  outline: none;
+  border: 3px solid skyblue;
+}
+
+.delete-contact-button:active {
+  background-color: skyblue;
+}

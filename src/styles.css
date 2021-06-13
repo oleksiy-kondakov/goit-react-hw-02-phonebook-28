@@ -1,0 +1,26 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.app-title,
+.section-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-size: 38px;
+}
+
+.section-title {
+  font-size: 30px;
+}
